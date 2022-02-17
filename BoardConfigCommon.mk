@@ -82,6 +82,9 @@ AB_OTA_PARTITIONS += \
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := avicii|OnePlusNord|Nord
+
 # Audio
 AUDIO_FEATURE_ENABLED_AHAL_EXT := false
 AUDIO_FEATURE_ENABLED_DLKM := true
