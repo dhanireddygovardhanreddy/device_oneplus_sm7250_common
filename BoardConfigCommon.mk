@@ -173,7 +173,7 @@ VENDOR_SECURITY_PATCH := 2021-11-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
-
+SELINUX_IGNORE_NEVERALLOWS := true
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
