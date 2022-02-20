@@ -530,3 +530,6 @@ endif
 # Enable skia reduceOpsTaskSplitting
 PRODUCT_PROPERTY_OVERRIDES += \
     renderthread.skia.reduceopstasksplitting=true
+
+# UDFPS animations
+EXTRA_UDFPS_ANIMATIONS := true
