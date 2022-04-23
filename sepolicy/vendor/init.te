@@ -1,0 +1,2 @@
+allow init hwservicemanager:binder { call };
+allow init vendor_file:file { execute  execute_no_trans };
